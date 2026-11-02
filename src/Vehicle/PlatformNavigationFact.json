@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "fileType": "FactMetaData",
+    "QGC.MetaData.Facts": [
+        { "name": "timeUsec", "shortDesc": "Platform navigation timestamp", "type": "uint64" },
+        { "name": "rollSp", "shortDesc": "Roll setpoint", "type": "double", "units": "rad" },
+        { "name": "qCmd", "shortDesc": "Pitch rate command", "type": "double", "units": "rad/s" },
+        { "name": "qMeas", "shortDesc": "Pitch rate measured", "type": "double", "units": "rad/s" },
+        { "name": "errorHoriz", "shortDesc": "Horizontal error", "type": "double", "units": "m" },
+        { "name": "errorVertic", "shortDesc": "Vertical error", "type": "double", "units": "m" },
+        { "name": "acczCmd", "shortDesc": "Acceleration Z command", "type": "double", "units": "m/s²" },
+        { "name": "acczMeas", "shortDesc": "Acceleration Z measured", "type": "double", "units": "m/s²" },
+        { "name": "accyCmd", "shortDesc": "Acceleration Y command", "type": "double", "units": "m/s²" },
+        { "name": "accyMeas", "shortDesc": "Acceleration Y measured", "type": "double", "units": "m/s²" },
+        { "name": "orthogonality", "shortDesc": "Orthogonality metric", "type": "double" },
+        { "name": "error", "shortDesc": "Platform navigation error", "type": "double", "units": "m" },
+        { "name": "hit", "shortDesc": "Hit flag", "type": "double" },
+        { "name": "relaxFactor", "shortDesc": "Relax factor", "type": "double" },
+        { "name": "hitCounter", "shortDesc": "Hit counter", "type": "double" },
+        { "name": "deltax", "shortDesc": "Delta X", "type": "double", "units": "m" },
+        { "name": "deltay", "shortDesc": "Delta Y", "type": "double", "units": "m" },
+        { "name": "deltaz", "shortDesc": "Delta Z", "type": "double", "units": "m" },
+        { "name": "speed", "shortDesc": "Platform speed", "type": "double", "units": "m/s" },
+        { "name": "diveFlag", "shortDesc": "Dive flag", "type": "uint8" }
+    ]
+}
